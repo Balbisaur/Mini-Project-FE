@@ -1,0 +1,210 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #13d1f3;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #20c3d8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-image: url('https://www.shutterstock.com/image-photo/digital-technology-software-development-concept-600nw-2111828198.jpg');
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.about-section, .resume-section, .portfolio-section, .contact-section {
+    margin: 20px 0;
+}
+
+.about-section h1, .resume-section h1, .portfolio-section h1, .contact-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    margin: 10px 0;
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+
+.skill-bar-fill {
+    background-color: #3498db;
+    height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+social-links a:hover {
+    color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
